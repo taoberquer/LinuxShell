@@ -42,5 +42,5 @@ function askCalcul () {
 esac
 }
 
-
+## Appel de fonction principale
 askCalcul
