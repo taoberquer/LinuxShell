@@ -27,7 +27,7 @@ function askCalcul () {
     read -p "Quel calcul voulez-vous faire ? (+, -, /, *)" -n 1 calculType
     read -p "Entrez la premiere valeur : " firstValue
     read -p "Entrez la deuxieme valeur : " secondValue
-    
+
     case $calculType in 
     "+") addition
     ;;
@@ -42,5 +42,5 @@ function askCalcul () {
 esac
 }
 
-## Appel de fonction principale
+
 askCalcul
